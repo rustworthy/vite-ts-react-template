@@ -1,12 +1,12 @@
-import { expect } from "@storybook/jest";
+import { expect } from "@storybook/test";
 import type { Meta, StoryObj } from "@storybook/react";
 import {
   userEvent,
   within,
   screen,
   waitForElementToBeRemoved,
-} from "@storybook/testing-library";
-import { withRouter } from "storybook-addon-react-router-v6";
+} from "@storybook/test";
+import { withRouter } from "storybook-addon-remix-react-router";
 
 import { sleep } from "utils";
 import { getAddToCartHandler } from "utils/handlers";

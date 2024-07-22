@@ -1,6 +1,6 @@
-import { expect } from "@storybook/jest";
+import { expect } from "@storybook/test";
 import type { Meta, StoryObj } from "@storybook/react";
-import { userEvent, within, screen } from "@storybook/testing-library";
+import { userEvent, within, screen } from "@storybook/test";
 
 import { getClearCartHandler, sleep } from "utils";
 

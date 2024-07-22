@@ -1,6 +1,6 @@
-import { expect } from "@storybook/jest";
+import { expect } from "@storybook/test";
 import type { Meta, StoryObj } from "@storybook/react";
-import { userEvent, within, screen } from "@storybook/testing-library";
+import { userEvent, within, screen } from "@storybook/test";
 
 import { Purchasing as CheckoutFormPurchasing } from "../CheckoutForm.stories";
 import { CheckoutButton } from "./index";
