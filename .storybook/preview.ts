@@ -35,11 +35,4 @@ export const decorators = [
 ];
 
 export const loaders = [mswLoader];
-export const tags = [
-  "autodocs",
-  "autodocs",
-  "autodocs",
-  "autodocs",
-  "autodocs",
-  "autodocs",
-];
+export const tags = ["autodocs"];
