@@ -6,7 +6,6 @@ import { theme } from "../src/theme";
 import { getUserHandler, withAuth, withReactQuery } from "../src/utils";
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
   controls: {
     matchers: {
       color: /(background|color)$/i,
@@ -36,3 +35,11 @@ export const decorators = [
 ];
 
 export const loaders = [mswLoader];
+export const tags = [
+  "autodocs",
+  "autodocs",
+  "autodocs",
+  "autodocs",
+  "autodocs",
+  "autodocs",
+];
