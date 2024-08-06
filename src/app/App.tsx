@@ -10,6 +10,7 @@ import { router } from "pages/router";
 import { useAuthStore } from "modules/auth/application";
 
 function App() {
+  console.log(import.meta.env.VITE_BACKEND_URL);
   const state = useAuthStore((store) => store.state);
 
   if (state === "finished") {
